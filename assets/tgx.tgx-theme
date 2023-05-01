@@ -1,0 +1,23 @@
+!
+name: "WeChat Black"
+time: 1682926084
+author: "rikumi"
+@
+bubbleCorner, bubbleDateCorner, dateCorner, imageCorner: 6
+parentTheme: 2
+#
+avatarArchive, avatarArchivePinned, avatarBlue, avatarBlue_big, avatarCyan, avatarCyan_big, avatarGreen, avatarGreen_big, avatarInactive, avatarInactive_big, avatarOrange, avatarOrange_big, avatarPink, avatarPink_big, avatarRed, avatarRed_big, avatarReplies, avatarReplies_big, avatarSavedMessages, avatarSavedMessages_big, avatarViolet, avatarViolet_big, avatarYellow, avatarYellow_big, bubbleOut_background, chatListVerify, checkActive, controlActive, file, fileGreen, fileRed, fileYellow, fillingPositive, inputActive, online, playerButtonActive, progress, promo, seekDone, sliderActive, textSecure, ticks, ticksRead, togglerActive: #28B462
+badge: #F85151
+badgeMuted: #5E5E5E
+badgeMutedText, bubble_chatBackground, bubbleOut_chatVerticalLine, bubbleOut_inlineIcon, bubbleOut_inlineOutline, bubbleOut_inlineText, bubbleOut_messageAuthor, bubbleOut_messageAuthorPsa, bubbleOut_text, bubbleOut_ticks, bubbleOut_ticksRead, chatBackground, filling: #000
+badgeText, icon, messageAuthor: #FFF
+bubbleOut_file: #FFFFFF7C
+bubbleOut_progress: #000000B7
+bubbleOut_separator: #0000005D
+bubbleOut_textLink: #37577A
+bubbleOut_textLinkPressHighlight: #FFFFFF56
+bubbleOut_time: #000000B6
+headerBackground: #101010
+separator: #191919
+statusBar, textPlaceholder: #0000
+togglerActiveBackground: #28B46255
