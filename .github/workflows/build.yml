@@ -46,4 +46,5 @@ jobs:
 
     - uses: actions/upload-artifact@v3.1.2
       with:
+        name: themes-release.zip
         path: dist/*
