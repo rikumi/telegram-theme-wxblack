@@ -9,17 +9,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
+        node-version: 16
     - uses: pnpm/action-setup@v2.2.4
-    - run: pnpm ci
+    - run: pnpm i
     - run: pnpm build
     - uses: actions/upload-artifact@v3.1.2
       with:
