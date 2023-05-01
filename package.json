@@ -1,0 +1,23 @@
+{
+  "name": "telegram-theme-wxblack",
+  "version": "1.0.0",
+  "description": "Cross platform WeChat Black Theme for Telegram",
+  "main": "index.js",
+  "homepage": "https://t.me/addtheme/wechat_black",
+  "scripts": {
+    "build": "rm -rf dist; concurrently \"npm run build:ios\" \"npm run build:macos\" \"npm run build:android\" \"npm run build:desktop\"",
+    "build:ios": "node scripts/build-ios.mjs",
+    "build:macos": "node scripts/build-macos.mjs",
+    "build:android": "node scripts/build-android.mjs",
+    "build:desktop": "node scripts/build-desktop.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "jpeg-js": "^0.4.4",
+    "js-yaml": "^4.1.0",
+    "jszip": "^3.10.1"
+  }
+}
