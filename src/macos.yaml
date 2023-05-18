@@ -4,7 +4,7 @@ isDark: 1
 tinted: 1
 parent: system
 copyright: Rikumi
-basicAccent: #FFFFFF
+basicAccent: #28B561
 background: #191919
 text: #FFFFFF
 grayText: #BEBEBE
@@ -22,7 +22,7 @@ border: #2A2A2A
 grayBackground: #191919
 grayForeground: #464646
 grayIcon: #FFFFFF99
-accentIcon: #FFFFFF
+accentIcon: #28B561
 badgeMuted: #777777
 badge: #F85151
 indicatorColor: #FFFFFF
