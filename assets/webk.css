@@ -19,6 +19,7 @@
   --surface-color: #191919 !important;
   --font-weight-bold: normal !important;
   --messages-line-height: normal !important;
+  --chat-input-border-radius: 0 !important;
 
   --peer-0-color-rgb: 128, 128, 128;
   --peer-1-color-rgb: 128, 128, 128;
@@ -222,6 +223,7 @@ ul.chatlist {
 .chat-input-main {
   --bottom: 0;
   border-top: 1px solid #252525;
+  padding-top: 0;
 }
 
 .chat-input-wrapper {
@@ -235,6 +237,10 @@ ul.chatlist {
 
 .chat-input-container {
   --padding-horizontal: 0;
+}
+
+.rows-wrapper .reply-wrapper {
+  padding: .3rem var(--padding-horizontal) .3rem;
 }
 
 .rows-wrapper .new-message-wrapper {
