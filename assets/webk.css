@@ -182,6 +182,14 @@ ul.chatlist {
   --border-end-end-radius: 5px !important;
 }
 
+.bubble.is-in.is-group-last.can-have-tail.has-plain-media-tail .attachment {
+  --border-end-start-radius: 5px !important;
+}
+
+.bubble.is-out.is-group-last.can-have-tail.has-plain-media-tail .attachment {
+  --border-end-end-radius: 5px !important;
+}
+
 .btn-icon {
   font-size: 1.2rem;
   border-radius: 4px !important;
