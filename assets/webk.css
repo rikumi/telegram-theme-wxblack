@@ -29,6 +29,18 @@
   --peer-6-color-rgb: 128, 128, 128;
   --peer-7-color-rgb: 128, 128, 128;
   --peer-8-color-rgb: 128, 128, 128;
+  --peer-9-color-rgb: 128, 128, 128;
+  --peer-10-color-rgb: 128, 128, 128;
+  --peer-11-color-rgb: 128, 128, 128;
+  --peer-12-color-rgb: 128, 128, 128;
+  --peer-13-color-rgb: 128, 128, 128;
+  --peer-14-color-rgb: 128, 128, 128;
+  --peer-15-color-rgb: 128, 128, 128;
+  --peer-16-color-rgb: 128, 128, 128;
+  --peer-17-color-rgb: 128, 128, 128;
+  --peer-18-color-rgb: 128, 128, 128;
+  --peer-19-color-rgb: 128, 128, 128;
+  --peer-20-color-rgb: 128, 128, 128;
 }
 
 .page-chats {
@@ -183,11 +195,11 @@ ul.chatlist {
 }
 
 .bubble.is-in.is-group-last.can-have-tail.has-plain-media-tail .attachment {
-  --border-end-start-radius: 5px !important;
+  border-end-start-radius: 5px !important;
 }
 
 .bubble.is-out.is-group-last.can-have-tail.has-plain-media-tail .attachment {
-  --border-end-end-radius: 5px !important;
+  border-end-end-radius: 5px !important;
 }
 
 .btn-icon {
@@ -261,6 +273,10 @@ ul.chatlist {
 .bubble .name {
   margin: -12px 8px 0px;
   transform: translateY(-6px);
+}
+
+.bubble .name br {
+  display: none !important;
 }
 
 .bubble .reply.mb-shorter {
