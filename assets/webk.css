@@ -319,6 +319,7 @@ ul.chatlist {
 
 .bubble .message {
   margin: 8px;
+  min-height: 18px;
 }
 
 .bubble .name {
