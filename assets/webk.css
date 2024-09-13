@@ -94,11 +94,12 @@
 }
 
 .avatar {
-  border-radius: 16%;
+  border-radius: 12%;
 }
 
 .avatar-like {
   transform: scale(0.75);
+  flex-shrink: 0;
 }
 
 .avatar-photo {
@@ -277,8 +278,12 @@ ul.chatlist {
 }
 
 .bubble .name {
-  margin: -12px 8px 0px;
-  transform: translateY(-6px);
+	margin: 0;
+  position: absolute;
+  top: -18px;
+  white-space: nowrap;
+  overflow: visible;
+  max-width: none;
 }
 
 .bubble .name br {
