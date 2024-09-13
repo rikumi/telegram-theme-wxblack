@@ -59,10 +59,50 @@
   flex: 0 0 auto;
 }
 
-#column-left .sidebar-header__btn-container {
+#column-left .sidebar-header__btn-container,
+#column-left .sidebar-close-button {
   position: fixed;
   left: 0.7rem;
   z-index: 2;
+}
+
+#column-left .sidebar-tools-button {
+  align-items: flex-start;
+  padding-top: 30px;
+}
+
+#column-left .sidebar-tools-button .btn-menu {
+	position: static;
+	min-width: 40px;
+	width: 100%;
+	margin-top: 1rem;
+	padding: 0;
+	background-color: #212121;
+	backdrop-filter: none;
+	box-shadow: none;
+}
+
+#column-left .sidebar-tools-button .btn-menu .btn-menu-item {
+	--padding-left: 0;
+	margin: 12px 0;
+	width: 100%;
+}
+
+#column-left .sidebar-tools-button .btn-menu .btn-menu-item-icon {
+  --add: -20px;
+}
+
+#column-left .sidebar-tools-button .btn-menu .btn-menu-footer {
+	display: none;
+}
+
+#column-left .sidebar-header {
+  padding-inline: 0.5rem;
+}
+
+#column-left .sidebar-header__title {
+  padding-inline-start: 0.5rem;
+  font-size: 16px;
 }
 
 #column-left .item-main .sidebar-emoji-status {
@@ -72,8 +112,7 @@
   z-index: 1;
 }
 
-.sidebar-header {
-  padding-inline: 0.5rem;
+#column-center .sidebar-header {
   background: none !important;
 }
 
@@ -139,6 +178,11 @@ ul.chatlist {
   --size: 1rem;
   --padding: 0rem;
   opacity: 0.4 !important;
+}
+
+.dialog-subtitle-badge.unread,
+.dialog-subtitle-badge.reaction-badge {
+  font-size: 10px;
 }
 
 .has-multiple-badges .dialog-subtitle-badge-pinned {
